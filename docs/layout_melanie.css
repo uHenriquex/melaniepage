@@ -1,0 +1,51 @@
+#fotos {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: flex-start;
+	background-color: #FFC0CB;
+	width: 100%;
+}
+
+.fotos {
+	width: 150px;
+	height: 250px;
+	border-radius: 15px;
+	margin: 0 auto;
+	object-fit: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+#caixa-fotos {
+	margin: auto;
+	align-items: center;
+	width: 250px;
+	height: 100px;
+	padding: 25px;
+	background-color: #7FFFD4;
+	border: 14px;
+	border-radius: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+
+body {
+	background-image: url("fundo_melanie.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: #000; /* Cor preta */
+    width: 95%; /* Ajusta a largura */
+    margin: 20px auto; /* Centraliza */
+}
