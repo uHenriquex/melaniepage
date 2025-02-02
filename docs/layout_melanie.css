@@ -98,6 +98,14 @@ hr {
         text-align: justify; /* Deixa o texto organizado */
     }
 
+ #caixa-fotos {
+        width: 90%;  /* Ajusta a largura para 90% da tela */
+        height: auto; /* Ajusta a altura para ser automática */
+        padding: 15px; /* Reduz o padding para celular */
+        border: 8px;  /* Menor borda */
+        border-radius: 15px; /* Borda arredondada menor */
+    }
+
     #fotos {
         display: flex;
         flex-direction: column;
