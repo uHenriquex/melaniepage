@@ -41,11 +41,6 @@ body {
 	background-position: center;
 	height: 100vh;
 	display: flex;
-	flex-direction: row; /* Ou row, se quiser os itens lado a lado */
-    	align-items: center; /* Centraliza os itens no meio */
-   	justify-content: center; /* Centraliza verticalmente */
-    	margin: 0;
-	
 }
 
 hr {
