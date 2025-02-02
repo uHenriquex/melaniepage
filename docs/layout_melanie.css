@@ -1,8 +1,3 @@
-body {
-    background: red !important;
-}
-
-
 #começo {
 	display: flex;
 	flex-direction: row;
