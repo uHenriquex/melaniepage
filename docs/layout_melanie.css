@@ -41,6 +41,11 @@ body {
 	background-position: center;
 	height: 100vh;
 	display: flex;
+	flex-direction: column; /* Ou row, se quiser os itens lado a lado */
+    	align-items: center; /* Centraliza os itens no meio */
+   	justify-content: center; /* Centraliza verticalmente */
+	min-height: 100vh; /* Faz com que o body ocupe toda a tela */
+    	margin: 0;
 	
 }
 
