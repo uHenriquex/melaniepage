@@ -84,57 +84,35 @@ hr {
 }
 
 
-/* 🌟 Media Query para TELAS MENORES (Celulares) */
 @media screen and (max-width: 768px) {
     body {
-        background-color: #f5f5f5; /* Um tom mais claro para melhor leitura */
-        padding: 0 10px; /* Pequeno espaço nas laterais */
+        padding: 10px; /* Adiciona um espaço interno para não grudar nas bordas */
     }
 
-    header {
-        width: 100%;
-        font-size: 16px; /* Um pouco menor para melhor encaixe */
-        text-align: center; /* Centraliza o título */
-        padding: 10px 0; /* Mais espaço interno */
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center; /* Centraliza os itens */
-        width: 100%;
-    }
-
-    .item {
-        width: 95%; /* Melhora o aproveitamento da tela */
-        margin-bottom: 15px;
-        padding: 10px; /* Mais espaçamento interno */
-        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Pequena sombra para destacar os itens */
-    }
-
-    h1, h2 {
-        font-size: 18px; /* Ajusta o tamanho dos títulos */
-    }
-
-    img {
-        max-width: 100%; /* Garante que as imagens não ultrapassem a tela */
-        height: auto; /* Mantém a proporção */
-        display: block;
-        margin: 0 auto; /* Centraliza as imagens */
+    header h1 {
+        font-size: 22px; /* Diminui o tamanho do título */
+        text-align: center; /* Centraliza o texto */
     }
 
     #apresentação p {
-        font-size: 14px; /* Diminui o texto para não ficar apertado */
-        text-align: justify; /* Melhor leitura */
+        font-size: 16px; /* Ajusta o tamanho do texto para ficar legível */
+        text-align: justify; /* Deixa o texto organizado */
     }
 
-    .fotos {
+    #fotos {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; /* Centraliza os elementos */
     }
 
     .descrição {
-        text-align: center; /* Centraliza as descrições */
-        padding: 5px;
+        text-align: center;
+        font-size: 16px; /* Texto menor */
+        margin-bottom: 10px;
+    }
+
+    .fotos {
+        width: 90%; /* Deixa as imagens menores */
+        margin-bottom: 20px;
     }
 }
